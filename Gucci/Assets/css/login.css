@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image:  url("../imagenes/index_tr1_login.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+    color: white;
+}
+
+.container .container__form img {
+    width:  250px;
+    border-radius: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.container__form{
+    background-color: rgb(73, 72, 88);
+    padding: 40px;
+    opacity: 0.9;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h2{
+    text-align: center;
+    color: rgb(81, 107, 124);
+}
+
+.login{
+    display: block;
+    width: 300px;
+    height: 25px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid white ;
+    color: white;
+}
+
+
+img{
+    margin-left: 52px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+a{
+    color:rgb(0, 195, 255);
+    padding-left: 70px;
+
+}
+
+ header a{
+    text-decoration: none;
+    color: white;
+    padding-top: 100px;
+}
+
+#boton_ingresar{
+    margin-left: 100px;
+}
+
